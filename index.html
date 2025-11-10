@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- idioma -->
+<html lang="pt-br">
+<!-- cabeça -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Perfil</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/png" href="favicon.svg">
+</head>
+<body>
+    
+    <div class="profile">
+     <img src="photo.webp" alt="Profile Picture">
+     <h1> Izadora Cruz </h1>
+     <h2> Aluno Senai </h2>
+     <p> Bem vindo a minha pagina!</p>
+     
+     
+     <div class="links">
+    <a href="#" class="btn">Instagram</a>
+    <a href="#" class="btn">Tiktok</a>
+    <button class="btn"onclick="mostrarMensagem()">Clique aqui</button>
+     <p id="mensagem"></p>
+</div>
+    </div>
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText = "Olá, você clicou no botão";
+        }
+    </script>
+    
+    </div>
+    </div>
+
+</body>
+</html>

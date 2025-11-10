@@ -1,0 +1,72 @@
+body {
+    /* zera margem do corpo */
+    margin: 0;
+    /* zera espaçamento interno */
+    padding: 0;
+    /* borda */
+    box-sizing: border-box;
+    /* cor do site */
+    background-color: #ffb2ee;
+    /* fonte */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* layout do site */
+    display: flex;
+    /* centralização */
+    justify-content: center;
+    /* alinhamento */
+    align-items: center;
+    /* altura dos objetos */
+    height: 100vh;
+}
+.profile {
+    padding: 5px;
+    /* cor da fonte */
+    color: white;
+    /* alinhamento */
+    align-items: center;
+}
+.profile img {
+    /* largura do site */
+    width: 120px;
+    /* altura da foto */
+    height: 120px;
+    /* borda da foto */
+    border-radius: 50%;
+    /* recorte da foto */
+    object-fit: cover;
+
+    margin-bottom: 15px;
+}
+.profile h1 {
+    /* tamanho da fonte */
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.profile h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Botões de link */
+.links .btn {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: #2d2a52;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.links .btn:hover {
+    background-color: #ddd;
+}
